@@ -643,7 +643,7 @@ input[type="radio"]:checked+label {
     color: #E3E4E6;
 }
 
-.textbox p{
+.textbox p {
     font-size: 16px;
     font-weight: 500;
     color: #cbcbcb;
@@ -730,13 +730,13 @@ input[type="radio"]:checked+label {
     justify-content: center;
 }
 
-.imgmyfuture img{
+.imgmyfuture img {
     display: flex;
-    justify-content: center; 
-    align-items: center;   
-    height: auto;       
+    justify-content: center;
+    align-items: center;
+    height: auto;
     margin: 0;
-    width: 50%;  
+    width: 50%;
     border: 2px solid #453fff;
     -webkit-box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
     box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
@@ -773,3 +773,22 @@ input[type="radio"]:checked+label {
 /* myfuture.html End */
 
 /* Project Success */
+
+/* Responsive Start */
+
+/* หน้าจอขนาด 360x640 (Phone) */
+@media (max-width: 360px) {
+    
+}
+
+/* หน้าจอขนาด 768x1024 (Tablet) */
+@media (min-width: 361px) and (max-width: 768px) {
+    
+}
+
+/* หน้าจอขนาดใหญ่ (Desktop) */
+@media (min-width: 769px) {
+    
+}
+
+/* Responsive End */
