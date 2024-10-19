@@ -899,8 +899,33 @@ input[type="radio"]:checked+label {
         color: #0800ff;
         border-radius: 15px;
     }
-    
     /* Project End */
+
+    /* Footer Start */
+    .footer {
+        margin-top: -1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    .footer h1 {
+        padding: 2rem;
+    }
+    .footer .row ul {
+        width: 100%;
+    }
+    
+    .footer .row ul li {
+        display: inline-block;
+        margin: 30px 0px;
+    }
+    
+    .footer .row a i {
+        font-size: 2.5em;
+        margin: 0% 1%;
+    }
+    /* Footer End */
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
