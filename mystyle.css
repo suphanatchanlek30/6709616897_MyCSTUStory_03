@@ -819,6 +819,34 @@ input[type="radio"]:checked+label {
         max-width: 100%;
     }
     /* Header End */
+
+    /* About Start */
+    .about_container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .about__content h1 {
+        text-align: center;
+        justify-content: center;
+    }
+    .section__header {
+        padding-top: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .section__subhesder {
+        text-align: center;
+        justify-content: center;
+        line-height: 1.75;
+    }
+    .about__grid {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* About End */
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
