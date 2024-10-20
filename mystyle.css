@@ -775,7 +775,7 @@ input[type="radio"]:checked+label {
 
 /* Responsive Start */
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 767px){
     /* Navbar Start */
     .nav_links .link{
         display: none;
@@ -934,7 +934,7 @@ input[type="radio"]:checked+label {
     /* Footer End */
 }
 
-@media (min-width: 641px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     /* Navbar Start */
     .nav_links .link{
         display: none;
