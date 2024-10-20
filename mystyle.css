@@ -1079,5 +1079,14 @@ input[type="radio"]:checked+label {
         margin-left: 5rem;
     }
     /* Header End */
+
+    /* About Start */
+    .about__image {
+        padding-right: 4rem;
+    }
+    .about__content {
+        padding-left: 4rem;
+    }
+    /* About End */
 }
 /* Responsive End */
