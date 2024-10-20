@@ -1033,6 +1033,32 @@ input[type="radio"]:checked+label {
     }
     /* Project End */
 
+    /* Footer Start */
+    .footer {
+        margin-top: -1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    .footer h1 {
+        padding: 2rem;
+    }
+    .footer .row ul {
+        width: 100%;
+    }
+    
+    .footer .row ul li {
+        display: inline-block;
+        margin: 20px 0px;
+    }
+    
+    .footer .row a i {
+        font-size: 2rem;
+        margin: 0% 1%;
+    }
+    /* Footer End */
+
 }
 
 @media (min-width: 1025px) {
