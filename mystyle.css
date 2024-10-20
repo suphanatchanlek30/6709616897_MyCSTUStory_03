@@ -933,7 +933,6 @@ input[type="radio"]:checked+label {
     .nav_links {
         display: none;
     }
-
     /* Header Start */
     .header {
         display: flex;
@@ -972,6 +971,21 @@ input[type="radio"]:checked+label {
         object-fit: cover;
     }
     /* Header End */
+
+    /* About Start */
+    .about_container {
+        margin: 0rem;
+    }
+    .section__header {
+        font-size: 2rem;
+    }
+    .section__subhesder {
+        font-size: 1rem;
+    }
+    .about__grid {
+        margin-top: 1rem;
+    }
+    /* About End */
 
 }
 
