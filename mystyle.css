@@ -783,6 +783,9 @@ input[type="radio"]:checked+label {
     .nav_git {
         display: none;
     }
+    .nav_links {
+        gap: 3px;
+    }
     /* Header Start */
     .header {
         padding: 1rem;
@@ -932,8 +935,13 @@ input[type="radio"]:checked+label {
 
 @media (min-width: 641px) and (max-width: 1024px) {
     /* ปิด Navbar */
-    .nav_links {
+    .nav_links .link{
         display: none;
+    }
+    .nav_links .link_to_page{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     /* Header Start */
     .header {
