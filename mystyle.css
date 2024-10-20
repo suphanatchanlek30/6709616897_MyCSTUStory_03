@@ -1000,6 +1000,39 @@ input[type="radio"]:checked+label {
     }
     /* Video End */
 
+    /* Project Start */
+    .menu {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .flex_2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .project__content h2 {
+        font-size: 1.75rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .project__content p {
+        font-size: 18px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .flex_2 img{
+        justify-content: center;
+        border-radius: 15px;
+    }
+    .project__content button {
+        display: inline;
+    }
+    /* Project End */
+
 }
 
 @media (min-width: 1025px) {
