@@ -777,10 +777,12 @@ input[type="radio"]:checked+label {
 
 @media (min-width: 360px) and (max-width: 640px) {
     /* ปิด Navbar */
-    .nav_links {
+    .nav_links .link{
         display: none;
     }
-
+    .nav_git {
+        display: none;
+    }
     /* Header Start */
     .header {
         padding: 1rem;
@@ -1058,7 +1060,6 @@ input[type="radio"]:checked+label {
         margin: 0% 1%;
     }
     /* Footer End */
-
 }
 
 @media (min-width: 1025px) {
